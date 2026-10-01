@@ -70,13 +70,13 @@ function Contact() {
             </div>
           </CardContent>
           <CardFooter className="flex flex-wrap gap-2">
-            <Button
+            {/*<Button
               nativeButton={false}
               render={<a href={`mailto:${siteConfig.email}`} />}
             >
               <MailIcon data-icon="inline-start" />
               Email me
-            </Button>
+            </Button>*/}
             <Button
               variant="outline"
               nativeButton={false}
