@@ -10,11 +10,16 @@ function SiteFooter() {
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-6 py-10">
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
           <div className="flex flex-col gap-0.5">
-            <p className="font-heading text-sm font-medium">{siteConfig.name}</p>
+            <p className="font-heading text-sm font-medium">
+              {siteConfig.name}
+            </p>
             <p className="text-sm text-muted-foreground">{siteConfig.role}</p>
           </div>
 
-          <nav aria-label="Footer" className="flex flex-wrap items-center gap-1">
+          <nav
+            aria-label="Footer"
+            className="flex flex-wrap items-center gap-1"
+          >
             {navLinks.map((link) => (
               <Button
                 key={link.href}
@@ -35,9 +40,7 @@ function SiteFooter() {
                 variant="outline"
                 size="sm"
                 nativeButton={false}
-                render={
-                  <a href={link.href} target="_blank" rel="noreferrer" />
-                }
+                render={<a href={link.href} target="_blank" rel="noreferrer" />}
               >
                 {link.label}
               </Button>

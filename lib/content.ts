@@ -67,7 +67,12 @@ export const experience = {
       organisation: "Universitas Indraprasta PGRI · GPA 3.35",
       summary:
         "Focused on software engineering, algorithms, database management system, and web programming.",
-      tags: ["Software Engineering", "Web Programming", "Databases", "Algorithms"],
+      tags: [
+        "Software Engineering",
+        "Web Programming",
+        "Databases",
+        "Algorithms",
+      ],
     },
   ],
 }
@@ -86,24 +91,11 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: "Backend & data",
-    skills: [
-      "PHP",
-      "Java",
-      "Javascript",
-      "Node.js",
-      "Laravel",
-      "MySQL",
-    ],
+    skills: ["PHP", "Java", "Javascript", "Node.js", "Laravel", "MySQL"],
   },
   {
     title: "Tools & Environtment",
-    skills: [
-      "Git",
-      "Docker",
-      "VS Code",
-      "Netbeans",
-      "Arch Linux",
-    ],
+    skills: ["Git", "Docker", "VS Code", "Netbeans", "Arch Linux"],
   },
 ]
 
@@ -112,7 +104,7 @@ export const projects: Project[] = [
     title: "SIMPATIK",
     description:
       "A Java-based application developed in NetBeans to support managerial decision making in selecting the best performing employee using the Simple Additive Weighting (SAW) method.",
-    tags: ["Java", "Netbeans", "MySQL",],
+    tags: ["Java", "Netbeans", "MySQL"],
     // demoHref: "https://example.com/projects/nova-dashboard",
     sourceHref: "https://github.com/bagusadesaputra/SIMPATIK",
   },

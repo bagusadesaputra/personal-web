@@ -9,9 +9,7 @@ import {
 } from "@/components/ui/card"
 import { skillGroups } from "@/lib/content"
 
-const groupDescriptions: Record<string, string> = {
-  
-}
+const groupDescriptions: Record<string, string> = {}
 
 function Skills() {
   return (
